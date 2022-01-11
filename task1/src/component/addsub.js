@@ -16,7 +16,7 @@ class Counter extends React.Component
     }
     reset(){
     this.setState({count:0})
-    console.log("reset")
+    console.log("reset button")
     }
     render()
     {
