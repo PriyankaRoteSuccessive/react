@@ -9,8 +9,7 @@ const Router = (props) =>{
        
         <Routes>
             <Route path="" element={<Dashboard/>} />
-        </Routes>
-        <Routes>
+       
             <Route path="/about"  element={<AboutUs data={props.persondata} />} />
         </Routes>
         </BrowserRouter>
